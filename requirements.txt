@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+sqlalchemy
+databases
+pydantic
+alembic
+psycopg2-binary  # use `mysqlclient` for MySQL
+python-jose[cryptography]  # Optional, for JWT
+passlib[bcrypt]
